@@ -1,0 +1,49 @@
+/* hanken-grotesk-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/hanken-grotesk-v8-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/hanken-grotesk-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* hanken-grotesk-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/hanken-grotesk-v8-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk";
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 375px;
+}
+
+.results-container {
+  text-align: center;
+  background: rgb(58,42,177);
+  background: linear-gradient(0deg, rgba(58,42,177,1) 45%, rgba(75,69,208,1) 76%, rgba(97,104,232,1) 94%);
+  color: white;
+}
